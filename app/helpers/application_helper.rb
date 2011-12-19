@@ -9,5 +9,10 @@ module ApplicationHelper
       "#{base_title} | #{@title}"
     end
   end
+  
+  # Define Logo
+  def logo
+    image_tag("logo.png", :alt => "Sample App", :class => "round")
+  end
 
 end
